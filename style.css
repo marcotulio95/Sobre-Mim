@@ -8,8 +8,9 @@ body{
 }
 
 #galeria-foto{
-	background: #FFFFFF;
-	padding: 5px;
+	width: 340px;
+	height: 625px;
+	padding: 10px;
 	float: left;
 	margin: 5px;
 }
@@ -19,17 +20,22 @@ body{
 	width: 100%;
 }
 
+.foto{
+	width: 360px;
+	height: 640px;
+}
+
 .clear{
 	clear: both;
 }
 /*****************************************************
-**********************Formatação do links************/
+**********************FormataÃ§Ã£o do links************/
 a{
 	text-decoration: none;
 	padding: 5px 10px;
 }
 
-/*Links Não Visitados*/
+/*Links NÃ£o Visitados*/
 a:link{
 	color: #838383;
 }
