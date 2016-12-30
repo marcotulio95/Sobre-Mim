@@ -1,5 +1,5 @@
 body{
-	background: #FFFFFF;
+	background: #FFF;
 }
 
 .marcador{
@@ -7,6 +7,21 @@ body{
 	border: 1px solid #f94646;
 }
 
+#galeria-foto{
+	background: #FFFFFF;
+	padding: 5px;
+	float: left;
+	margin: 5px;
+}
+
+#white{
+	background: #fff;
+	width: 100%;
+}
+
+.clear{
+	clear: both;
+}
 /*****************************************************
 **********************Formatação do links************/
 a{
