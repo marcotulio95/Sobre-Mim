@@ -2,6 +2,27 @@ body{
 	background: #FFF;
 }
 
+@keyframes animacaobox{
+	from{
+		background: red;
+		top:0px;
+		left: 0px;
+	}
+	to{
+		background: yellow;
+		top: 200px;
+		left: 	200px;
+	}
+}
+
+#box-animacao{
+	width: 350px;
+	height: 350px;
+	background:#676470;
+    transition:all 0.3s ease;
+
+}
+
 .marcador{
 	background: #fe9d9d;
 	border: 1px solid #f94646;
@@ -27,6 +48,19 @@ body{
 
 .clear{
 	clear: both;
+}
+.fade{
+	opacity: 	0.9;
+}
+.fade:hover{
+	opacity: 	1;
+}
+
+.grow:hover
+{
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
 }
 /*****************************************************
 **********************FormataÃ§Ã£o do links************/
