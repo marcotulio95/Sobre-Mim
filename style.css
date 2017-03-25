@@ -53,11 +53,9 @@ body{
 .clear{
 	clear: both;
 }
+
 .fade{
-	opacity: 	0.2;
-}
-.fade:hover{
-	opacity: 	1;
+	opacity: 1;
 }
 
 .grow:hover
