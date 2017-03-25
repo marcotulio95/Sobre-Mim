@@ -37,6 +37,7 @@ body{
 	padding: 10px;
 	float: left;
 	margin: 5px;
+	transition:all 0.3s ease;
 }
 
 #white{
@@ -53,7 +54,7 @@ body{
 	clear: both;
 }
 .fade{
-	opacity: 	0.9;
+	opacity: 	0.2;
 }
 .fade:hover{
 	opacity: 	1;
